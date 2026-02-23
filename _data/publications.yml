@@ -2,13 +2,13 @@
 # Keep in sync with _bibliography/papers.bib when adding/changing papers.
 - abbr: VSS
   title: "Characterizing the inputs to infants' object category representations"
-  author: "Yang, Jane and Sepuri, Tarun and Tan, Alvin W. M. and Aw, Khai Loong and Frank, Michael C. and Long, Bria"
+  author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Khai Loong Aw, Michael C. Frank, Bria Long"
   venue: Vision Science Society
   year: 2026
   selected: true
 - abbr: CCN
   title: "Quantifying infants' everyday experiences with objects in a large corpus of egocentric videos"
-  author: "Yang, Jane and Sepuri, Tarun and Tan, Alvin W. M. and Frank, Michael C. and Long, Bria"
+  author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Michael C. Frank, Bria Long"
   venue: Cognitive Computational Neuroscience
   year: 2025
   url: "https://2025.ccneuro.org/abstract_pdf/Yang_2025_Quantifying_infants_everyday_experiences_objects_large.pdf"
@@ -16,7 +16,7 @@
   selected: true
 - abbr: CogSci
   title: "Learning semantic knowledge based on infant real-time attention and parent in-situ speech"
-  author: "Yang, Jane and Zhang, Yayun and Yu, Chen"
+  author: "Jane Yang, Yayun Zhang, Chen Yu"
   venue: Cognitive Science Society
   year: 2024
   url: "https://escholarship.org/uc/item/48w894zd"
@@ -24,21 +24,21 @@
   selected: true
 - abbr: CogSci
   title: "Using manual actions to create visual saliency: an outside-in solution to sustained attention and joint attention"
-  author: "Yang, Jane and Smith, Linda and Crandall, David and Yu, Chen"
+  author: "Jane Yang, Linda Smith, David Crandall, Chen Yu"
   venue: Cognitive Science Society
   year: 2023
   url: "https://escholarship.org/uc/item/0wv2f31h"
   pdf: "Using manual actions to create visual saliency- an outside-in solution to sustained attention and joint attention.pdf"
 - abbr: CogSci
   title: "Communicating understanding of physical dynamics in natural language"
-  author: "Wang, Haoliang and Yang, Jane and Tamari, Ronen and Fan, Judith"
+  author: "Haoliang Wang, Jane Yang, Ronen Tamari, Judith Fan"
   venue: Cognitive Science Society
   year: 2022
   url: "https://escholarship.org/uc/item/5d29r197"
   pdf: "Communicating understanding of physical dynamics in natural language.pdf"
 - abbr: arXiv
   title: "Assessing the alignment between infants' visual and linguistic experience using multimodal language models"
-  author: "Tan, Alvin W. M.* and Yang, Jane* and Sepuri, Tarun and Aw, Khai Loong and Sparks, Rachel Z. and Yin, Ziyi and Marchman, Virginia A. and Frank, Michael C. and Long, Bria"
+  author: "Alvin W.M. Tan*, Jane Yang*, Tarun Sepuri, Khai Loong Aw, Rachel Z. Sparks, Ziyi Yin, Virginia A. Marchman, Michael C. Frank, Bria Long"
   venue: "arXiv preprint arXiv:2511.18824"
   year: 2025
   url: "https://arxiv.org/abs/2511.18824"
@@ -46,7 +46,7 @@
   note: "*Co-first authors"
 - abbr: OpenReview
   title: "Active Gaze Behavior Boosts Self-Supervised Object Learning"
-  author: "Yu, Zhengyang and Aubret, Arthur and Raabe, Marcel C. and Yang, Jane and Yu, Chen and Triesch, Jochen"
+  author: "Zhengyang Yu, Arthur Aubret, Marcel C. Raabe, Jane Yang, Chen Yu, Jochen Triesch"
   venue: Submitted
   year: 2025
   url: "https://openreview.net/forum?id=dPqfgsYn6l"
