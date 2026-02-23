@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Ph.D. student in Experimental Psychology at UC San Diego in the [Visual Learning Lab](https://visuallearninglab.ucsd.edu/), advised by [Bria Long](https://brialong.github.io/). I received my B.S. in Cognitive Science at UC San Diego, where I specialized in Machine Learning & Neural Computation and minored in Computer Science.
+I'm a second-year Ph.D. student in Experimental Psychology at UC San Diego in the [Visual Learning Lab](https://www.vislearnlab.org/), advised by [Bria Long](https://www.brialong.com/). I received my B.S. in Cognitive Science at UC San Diego, where I specialized in Machine Learning & Neural Computation and minored in Computer Science.
 
 My research focuses on **egocentric vision**, **visual representation learning**, and **perception and interaction in naturalistic environments**. I study how infants learn from what they see in daily life—using large-scale egocentric video (e.g., the [BabyView](https://doi.org/10.48550/arXiv.2406.10447) dataset), computer vision (object detection, CLIP, DINO), and behavioral experiments to quantify naturalistic visual experience and its link to early concept development. I'm interested in making developmental psychology more data-driven and ecologically valid, and in using multimodal and AI tools to study human learning at scale.
 
