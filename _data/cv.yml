@@ -1,97 +1,143 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Experimental Psychology
+      institution: UC San Diego
+      year: 2024--present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: Bria Long"
+    - title: B.S. in Cognitive Science
+      institution: UC San Diego
+      year: 2018--2022
       description:
-        - Description 1.
-        - Description 2.
+        - "Specialized in Machine Learning & Neural Computation"
+        - "Minor: Computer Science"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Student
+      institution: "UC San Diego Visual Learning Lab (Principal Investigator: Bria Long)"
+      year: 2024--present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Object Detection in Egocentric Video: Implemented YOLOE for automated object detection in 868+ hours of infant egocentric video data from BabyView dataset (31 families)"
+        - "Cross-Dataset Representational Analysis: Extracted CLIP and DINOv3 embeddings from object images in BabyView vs. THINGS datasets to quantify distributional differences between infant visual experience and contemporary computer vision datasets"
+        - "Visual-Linguistic Alignment Analysis: Quantified visual-linguistic alignment in naturalistic infant egocentric video using CLIP model"
+        - "Experimental Design: Designed and conducted adult eye-tracking experiments investigating object interaction strategies based on information collection optimality"
+    - title: Lab Technician
+      institution: "UT Austin Developing Intelligence Lab (Principal Investigator: Chen Yu)"
+      year: 2022--2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Naturalistic Data Collection: Conducted multimodal data collection with 12-36 month infants and caregivers using head-mounted eye trackers, third-person cameras, IMUs, and lapel microphones in participants' homes"
+        - "Multi-sensor Data Fusion: Built Python pipelines to synchronize and process multimodal sensor streams from multiple recording devices"
+        - "Pose Estimation: Deployed MediaPipe and OpenPose for hand and face detection in egocentric video streams"
+        - "Object Detection: Fine-tuned YOLOv8 for object detection in infant/parent egocentric views"
+        - "Speech Processing: Integrated WhisperX for automated transcription and speaker diarization"
+        - "Motion Tracking: Generated skeletal motion tracking data for dyads' in-lab toy playing sessions"
+        - "3D Modeling: Created 3D experimental environments and stimuli using Unity, Blender, and Matterport 3D camera"
+    - title: Research Assistant
+      institution: "UC San Diego Cognitive Tools Lab (Principal Investigator: Judith Fan)"
+      year: 2021--2022
       description:
+        - "Honors Thesis: Completed an honors thesis examining how people communicate abstract physics knowledge between individuals"
+        - "Interactive Experiment Development: Built web-based experiments for studying intuitive physics knowledge communication using JavaScript and Node.js"
+        - "Natural Language Analysis: Processed and analyzed 480+ participant responses using NLP methods and manual annotation"
+    - title: Research Assistant
+      institution: "UC San Diego Language and Comprehension Lab (Principal Investigator: Eva Wittenberg)"
+      year: 2020--2021
+      description:
+        - "Psycholinguistic Experiments: Built web-based experiments studying the effect of verbal reduplication on event conceptualization in Mandarin Chinese"
+        - "Hardware Development: Assisted development of a pen with pressure sensors to record participants' physiological reactions to linguistic stimuli"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: PSYC 201B Quantitative Methods in Psychology II
+      institution: UC San Diego, Department of Psychology
+      year: "2026"
+    - title: PSYC 201A Statistical Computing and Inference from Data I
+      institution: UC San Diego, Department of Psychology
+      year: "2025"
+    - title: PSYC 168 Psychological Disorders of Childhood
+      institution: UC San Diego, Department of Psychology
+      year: "2025"
+    - title: PSYC 181 Drugs and Behaviors
+      institution: UC San Diego, Department of Psychology
+      year: "2025"
+    - title: PSYC 102 Sensory Neuroscience
+      institution: UC San Diego, Department of Psychology
+      year: "2024"
+    - title: PSY 371M Introduction to Machine Learning
+      institution: UT Austin, Department of Psychology
+      year: "2023"
+    - title: COGS 189 Brain Computer Interfaces
+      institution: UC San Diego, Department of Cognitive Science
+      year: "2022"
+    - title: COGS 101C Language
+      institution: UC San Diego, Department of Cognitive Science
+      year: "2021"
 
-- title: Honors and Awards
+- title: Mentorship
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: UC San Diego
+      year: 2024--present
+      description:
+        - Dora Deng, Mira Maeto
+    - title: UT Austin
+      year: 2023--2024
+      description:
+        - Elton Martinez, Anagha Kenikar, Jacob Rivera, Ruchi Shah
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C++, C, MATLAB, R, JavaScript, Java, Clojure
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - PyTorch, TensorFlow, HuggingFace
+    - title: Data Processing
+      items:
+        - Multi-sensor fusion, video processing (FFMPEG)
+    - title: Development Tools
+      items:
+        - Git, MongoDB, Node.js, Unity, Blender, AutoCAD, SolidWorks
+    - title: NLP
+      items:
+        - spaCy, NLTK, Whisper
+    - title: Other Software
+      items:
+        - LATEX, Datavyu, Audacity, ELAN, Illustrator
+    - title: Languages
+      items:
+        - English, Mandarin, Hokkien
 
-- title: Other Interests
+- title: Awards & Fellowships
+  type: time_table
+  contents:
+    - year: "2026"
+      items:
+        - National Eye Institute Early Career Scientist Travel Grant, Vision Science Society
+    - year: "2025"
+      items:
+        - Anderson Travel & Research Award, UC San Diego
+    - year: "2024"
+      items:
+        - Norman Henry Anderson Fellowship, UC San Diego
+    - year: "2022"
+      items:
+        - Triton Research and Experiential Learning Scholars Award, UC San Diego
+        - Distinction in Cognitive Science, UC San Diego
+    - year: 2019--2022
+      items:
+        - Provost's Honors, UC San Diego
+    - year: "2019"
+      items:
+        - HackSC 1st Place in Entrepreneurship, USC
+
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Egocentric vision, visual representation learning, and perception and interaction in naturalistic environments
