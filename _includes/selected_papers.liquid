@@ -1,3 +1,17 @@
+{% comment %} GitHub Pages does not support jekyll-scholar; showing selected papers from data {% endcomment %}
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  <ol class="bibliography">
+    {% for pub in site.data.publications %}
+      {% if pub.selected %}
+        <li>
+          <div class="abbr"><abbr>{{ pub.abbr }}</abbr></div>
+          <div class="title">{{ pub.title }}</div>
+          <div class="author">{{ pub.author }}</div>
+          <div class="venue">{{ pub.venue }}</div>
+          {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}
+          {% if pub.pdf %}<a href="{{ pub.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener">pdf</a>{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
 </div>
