@@ -41,17 +41,6 @@ ninja.data = [{
             window.location.href = "/blog/2026/i-dont-know-what-im-doing/";
           
         },
-      },{id: "post-the-coldest-summer-i-ever-spent-was-in-london",
-        
-          title: "The Coldest Summer I Ever Spent Was in London",
-        
-        description: "A few days in Paris and London after a conference in Europe.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/coldest-summer-london-paris/";
-          
-        },
       },{id: "post-trust-the-roots",
         
           title: "Trust the Roots",
