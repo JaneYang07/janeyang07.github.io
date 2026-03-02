@@ -30,7 +30,7 @@ How well are the visual and linguistic streams aligned in naturalistic settings?
 
 ### Attention, action, and learning
 
-How do **attention and action** structure learning—e.g., how manual actions create visual saliency and support joint attention, and how real-time attention relates to language?
+How do attention and action structure learning—e.g., how manual actions create visual saliency and support joint attention, and how real-time attention relates to language?
 
 - **[Using manual actions to create visual saliency](https://escholarship.org/uc/item/0wv2f31h)** (CogSci 2023) — Manual actions create visual saliency and support joint attention from an “outside-in” perspective.
 - **[Learning semantic knowledge based on infant real-time attention and parent in-situ speech](https://escholarship.org/uc/item/48w894zd)** (CogSci 2024) — Linking infant gaze and parent speech to ask how attention shapes which semantic information is available during learning.
@@ -39,7 +39,7 @@ How do **attention and action** structure learning—e.g., how manual actions cr
 
 ### 3D vision and object experience *(in development)*
 
-How do manipulation and dyadic interaction shape the 3D view statistics that support object learning? I use **3D object reconstruction and 6DoF pose tracking** (Unity, Blender, Matterport) to characterize viewpoint distributions during active vs. passive viewing, compare infant and caregiver view experiences during joint play, and test whether view variability predicts recognition and generalization to novel views and exemplars.
+How do manipulation and dyadic interaction shape the 3D view statistics that support object learning? I use 3D object reconstruction and 6DoF pose tracking to characterize viewpoint distributions during active vs. passive viewing, compare infant and caregiver view experiences during joint play, and test whether view variability predicts recognition and generalization to novel views and exemplars.
 
 ---
 
