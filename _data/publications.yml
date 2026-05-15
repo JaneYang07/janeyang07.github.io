@@ -6,6 +6,14 @@
   venue: Vision Science Society
   year: 2026
   selected: true
+- abbr: arXiv
+  title: "Characterizing the visual representation of objects from the child's view"
+  author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Khai Loong Aw, Michael C. Frank, Bria Long"
+  venue: "arXiv preprint arXiv:2605.14990"
+  year: 2026
+  url: "https://arxiv.org/abs/2605.14990"
+  pdf: "objects_preprint.pdf"
+  selected: true
 - abbr: CCN
   title: "Quantifying infants' everyday experiences with objects in a large corpus of egocentric videos"
   author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Michael C. Frank, Bria Long"
