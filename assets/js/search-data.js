@@ -74,6 +74,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/janeyang314", "_blank");
         },
       },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/jane-yang.bsky.social", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
