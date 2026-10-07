@@ -12,6 +12,10 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
+  {% assign self_first = site.scholar.first_name | first %}
+  {% assign self_last = site.scholar.last_name | first %}
+  {% assign self_name = self_first | append: " " | append: self_last %}
+  {% assign self_html = "<em>" | append: self_name | append: "</em>" %}
   {% assign pub_years = site.data.publications | group_by: "year" | sort: "name" | reverse %}
   {% for year_group in pub_years %}
     <h2 class="bibliography">{{ year_group.name }}</h2>
@@ -22,13 +26,17 @@ nav_order: 2
             <abbr>{{ pub.abbr }}</abbr>
           </div>
           <div class="title">{{ pub.title }}</div>
-          <div class="author">{{ pub.author }}</div>
+          <div class="author">{{ pub.author | replace: self_name, self_html }}</div>
           <div class="venue">{{ pub.venue }}</div>
-          {% if pub.url or pub.pdf %}
+          {% if pub.url or pub.pdf or pub.poster %}
             <div class="links">
               {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}
               {% if pub.url and pub.pdf %} · {% endif %}
               {% if pub.pdf %}<a href="{{ '/assets/pdf/' | append: pub.pdf | relative_url }}" target="_blank" rel="noopener">pdf</a>{% endif %}
+              {% if pub.poster %}
+                {% if pub.url or pub.pdf %} · {% endif %}
+                <a href="{{ '/assets/pdf/' | append: pub.poster | relative_url }}" target="_blank" rel="noopener">poster</a>
+              {% endif %}
             </div>
           {% endif %}
           {% if pub.note %}<div class="note">{{ pub.note }}</div>{% endif %}

@@ -19,35 +19,72 @@
     - title: Graduate Student
       institution: "UC San Diego Visual Learning Lab (Principal Investigator: Bria Long)"
       year: 2024--present
+      maindescription: "How the visual input children actually receive shapes the object representations they build, and how that input compares to what vision models are trained on."
       description:
-        - "Object Detection in Egocentric Video: Implemented YOLOE for automated object detection in 868+ hours of infant egocentric video data from BabyView dataset (31 families)"
-        - "Cross-Dataset Representational Analysis: Extracted CLIP and DINOv3 embeddings from object images in BabyView vs. THINGS datasets to quantify distributional differences between infant visual experience and contemporary computer vision datasets"
-        - "Visual-Linguistic Alignment Analysis: Quantified visual-linguistic alignment in naturalistic infant egocentric video using CLIP model"
-        - "Experimental Design: Designed and conducted adult eye-tracking experiments investigating object interaction strategies based on information collection optimality"
+        - "What objects children see, and how that differs from curated datasets. Object frequency and representational geometry across 868+ hours of egocentric video (BabyView, 31 families) compared against THINGS. Methods: YOLOE detection with CLIP-based filtering, CLIP and DINOv3 embeddings, representational similarity analysis. Output: first-author manuscript under review; public reproducibility capsule."
+        - "Why some categories are visually harder than others. Global and local dispersion measures over 85 categories separate viewpoint-driven from instance-driven variability; rankings partially replicate across backbones and are only weakly coupled to frequency. Output: CCN 2026 spotlight; reproducible analysis package and layer-wise embedding explorer."
+        - "Whether children and models converge on 3D shape. MOCHI Kids, a developmental (ages 4–6) adaptation of the MOCHI shape-oddity benchmark, built and deployed for direct human-model comparison on multiview object consistency. Methods: TypeScript and jsPsych client, Express and MongoDB backend, end-to-end tests in CI. Status: piloting."
+        - "How language and vision align in everyday input. Alignment between child-directed speech and co-occurring visual scenes in naturalistic video, using multimodal models as the measure. Output: co-first-author preprint."
+        - "What changes when children act on objects. Identifying viewed and manipulated objects by combining monocular depth estimation, IMU-derived head direction, and hand tracking; building a synchronized capture rig (Pupil Labs Neon eye trackers, two depth cameras, room-view camera) for caregiver-child interaction studies. Status: in progress."
     - title: Lab Technician
       institution: "UT Austin Developing Intelligence Lab (Principal Investigator: Chen Yu)"
       year: 2022--2024
       description:
-        - "Naturalistic Data Collection: Conducted multimodal data collection with 12-36 month infants and caregivers using head-mounted eye trackers, third-person cameras, IMUs, and lapel microphones in participants' homes"
-        - "Multi-sensor Data Fusion: Built Python pipelines to synchronize and process multimodal sensor streams from multiple recording devices"
-        - "Pose Estimation: Deployed MediaPipe and OpenPose for hand and face detection in egocentric video streams"
-        - "Object Detection: Fine-tuned YOLOv8 for object detection in infant/parent egocentric views"
-        - "Speech Processing: Integrated WhisperX for automated transcription and speaker diarization"
-        - "Motion Tracking: Generated skeletal motion tracking data for dyads' in-lab toy playing sessions"
-        - "3D Modeling: Created 3D experimental environments and stimuli using Unity, Blender, and Matterport 3D camera"
+        - "Multimodal measurement of infant-caregiver interaction. Ran home-based sessions with 12–36 month infants using head-mounted eye trackers, third-person cameras, IMUs, and lapel microphones. Methods: Python preprocessing pipelines across devices; MATLAB codebase to analyze and visualize multi-stream data; YOLOv8 fine-tuning for infant and parent views; MediaPipe and OpenPose for hand and face detection; WhisperX for transcription and diarization; skeletal tracking for dyadic play; 3D environments in Unity, Blender, and Matterport."
     - title: Research Assistant
       institution: "UC San Diego Cognitive Tools Lab (Principal Investigator: Judith Fan)"
       year: 2021--2022
       description:
-        - "Honors Thesis: Completed an honors thesis examining how people communicate abstract physics knowledge between individuals"
-        - "Interactive Experiment Development: Built web-based experiments for studying intuitive physics knowledge communication using JavaScript and Node.js"
-        - "Natural Language Analysis: Processed and analyzed 480+ participant responses using NLP methods and manual annotation"
+        - "How people communicate abstract physics knowledge. Honors thesis. Methods: web-based experiments in JavaScript and Node.js; NLP and manual annotation of 480+ participant responses."
     - title: Research Assistant
       institution: "UC San Diego Language and Comprehension Lab (Principal Investigator: Eva Wittenberg)"
       year: 2020--2021
       description:
-        - "Psycholinguistic Experiments: Built web-based experiments studying the effect of verbal reduplication on event conceptualization in Mandarin Chinese"
-        - "Hardware Development: Assisted development of a pen with pressure sensors to record participants' physiological reactions to linguistic stimuli"
+        - "How verbal reduplication shapes event conceptualization in Mandarin. Methods: web-based psycholinguistic experiments; development of a pressure-sensing pen for physiological response recording."
+
+- title: Selected Presentations
+  type: time_table
+  contents:
+    - title: "Variability in young children's everyday visual experiences of object categories"
+      year: "2026"
+      description:
+        - "Spotlight poster: Cognitive Computational Neuroscience."
+    - title: "Characterizing the inputs to infants' object category representations"
+      year: "2026"
+      description:
+        - "Talks: Beyond Curated Datasets (CCN satellite); Vision Science Society; Southern California Meeting for Investigations in Developmental Science; Egocentric Video Workshop, Stanford."
+    - title: "Quantifying infants' everyday experiences with objects in a large corpus of egocentric videos"
+      year: "2025"
+      description:
+        - "Talks: BabyView Workshop (Understanding Infant Experience Through Egocentric Data); BabyView and 1kD joint lightning talks. Posters: Cognitive Computational Neuroscience; Southern California Meeting for Investigations in Developmental Science."
+    - title: "Learning semantic knowledge based on infant real-time attention and parent in-situ speech"
+      year: "2024"
+      description:
+        - "Talks: Cognitive Science Society (46th Annual Meeting); International Congress of Infant Studies."
+    - title: "Using manual actions to create visual saliency"
+      year: "2023"
+      description:
+        - "Talk: Cognitive Science Society (45th Annual Meeting). Posters: COSMOS; Workshop on Natural Environments, Tasks and Intelligence."
+    - title: "Communicating understanding of physical dynamics in natural language"
+      year: "2022"
+      description:
+        - "Talk: UCSD 35th Annual Undergraduate Research Conference. Poster: Cognitive Science Society (44th Annual Meeting)."
+
+- title: Software & Open Science
+  type: nested_list
+  contents:
+    - title: MOCHI Kids
+      items:
+        - "Kid-friendly web implementation of the MOCHI 3D shape-oddity benchmark for human-model comparison. TypeScript, jsPsych, Express, MongoDB, end-to-end tests in CI."
+    - title: BabyView Objects reproducibility capsule
+      items:
+        - "Analysis code, anonymized data, and a pinned Docker environment reproducing the manuscript results. MIT and CC0 licensed."
+    - title: CCN 2026 object variability package
+      items:
+        - "Reproducible dispersion metrics and figures over 7,018 validated crops with paired CLIP and DINOv3 embeddings."
+    - title: BabyView variability explorer
+      items:
+        - "Layer-wise reanalysis of CLIP dispersion metrics with an interactive embedding explorer across transformer blocks."
 
 - title: Teaching Experience
   type: time_table
@@ -83,36 +120,21 @@
     - title: UC San Diego
       year: 2024--present
       description:
-        - Dora Deng, Mira Maeto
+        - Dora Deng, Mira Mateo, Juan Pablo Bello, Rochelle Boegeman, Emma Nishikawa
     - title: UT Austin
       year: 2023--2024
       description:
         - Elton Martinez, Anagha Kenikar, Jacob Rivera, Ruchi Shah
 
-- title: Technical Skills
-  type: nested_list
+- title: Service & Leadership
+  type: time_table
   contents:
-    - title: Programming
-      items:
-        - Python, C++, C, MATLAB, R, JavaScript, Java, Clojure
-    - title: Machine Learning
-      items:
-        - PyTorch, TensorFlow, HuggingFace
-    - title: Data Processing
-      items:
-        - Multi-sensor fusion, video processing (FFMPEG)
-    - title: Development Tools
-      items:
-        - Git, MongoDB, Node.js, Unity, Blender, AutoCAD, SolidWorks
-    - title: NLP
-      items:
-        - spaCy, NLTK, Whisper
-    - title: Other Software
-      items:
-        - LATEX, Datavyu, Audacity, ELAN, Illustrator
-    - title: Languages
-      items:
-        - English, Mandarin, Hokkien
+    - title: "Co-organizer, Beyond Curated Datasets"
+      institution: "CCN satellite workshop, New York, NY"
+      year: "2026"
+    - title: Colloquium Committee Representative
+      institution: "Department of Psychology, UC San Diego"
+      year: 2025--2026
 
 - title: Awards & Fellowships
   type: time_table
@@ -136,6 +158,31 @@
     - year: "2019"
       items:
         - HackSC 1st Place in Entrepreneurship, USC
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python, MATLAB, R, C++, C, JavaScript, TypeScript, Java, Clojure
+    - title: Machine Learning
+      items:
+        - PyTorch, TensorFlow, HuggingFace
+    - title: Data Processing
+      items:
+        - Multi-sensor fusion, video processing, SLURM cluster computing, Docker, conda environment management
+    - title: Data Collection
+      items:
+        - Head-mounted camera and eye tracking, depth cameras, IMU, multi-device synchronization
+    - title: Development Tools
+      items:
+        - Git, CI/CD, MongoDB, Node.js, Unity, Blender, AutoCAD, SolidWorks
+    - title: Other Software
+      items:
+        - LATEX, Datavyu, Audacity, ELAN, Illustrator
+    - title: Languages
+      items:
+        - English, Mandarin, Hokkien
 
 - title: Research Interests
   type: list

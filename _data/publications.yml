@@ -1,18 +1,35 @@
 # Publications list (used when jekyll-scholar is not available, e.g. GitHub Pages)
 # Keep in sync with _bibliography/papers.bib when adding/changing papers.
+- abbr: DevSci
+  title: "Toddlers' active gaze behavior supports self-supervised object learning"
+  author: "Zhengyang Yu, Arthur Aubret, Marcel C. Raabe, Jane Yang, Chen Yu, Jochen Triesch"
+  venue: Developmental Science
+  year: 2026
+  url: "https://doi.org/10.1111/desc.70231"
+  pdf: "Active Gaze Behavior Boosts Self-Supervised Object Learning.pdf"
+- abbr: CCN
+  title: "Variability in young children's everyday visual experiences of object categories"
+  author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Khai Loong Aw, Michael C. Frank, Bria Long"
+  venue: Cognitive Computational Neuroscience
+  year: 2026
+  pdf: "ccn_2026_object_variability_camera_ready.pdf"
+  poster: "object_variability_ccn_poster_07302026_44x33.pdf"
+  note: "Spotlight poster"
+  selected: true
+- abbr: arXiv
+  title: "Characterizing the visual representation of objects from the child's view"
+  author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Khai Loong Aw, Michael C. Frank, Bria Long"
+  venue: "Under review"
+  year: 2026
+  url: "https://arxiv.org/abs/2605.14990"
+  pdf: "objects_preprint.pdf"
+  note: "arXiv:2605.14990"
+  selected: true
 - abbr: VSS
   title: "Characterizing the inputs to infants' object category representations"
   author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Khai Loong Aw, Michael C. Frank, Bria Long"
   venue: Vision Science Society
   year: 2026
-  selected: true
-- abbr: arXiv
-  title: "Characterizing the visual representation of objects from the child's view"
-  author: "Jane Yang, Tarun Sepuri, Alvin W.M. Tan, Khai Loong Aw, Michael C. Frank, Bria Long"
-  venue: "arXiv preprint arXiv:2605.14990"
-  year: 2026
-  url: "https://arxiv.org/abs/2605.14990"
-  pdf: "objects_preprint.pdf"
   selected: true
 - abbr: CCN
   title: "Quantifying infants' everyday experiences with objects in a large corpus of egocentric videos"
@@ -52,10 +69,3 @@
   url: "https://arxiv.org/abs/2511.18824"
   pdf: "Assessing the alignment between infants' visual and linguistic experience using multimodal language models.pdf"
   note: "*Co-first authors"
-- abbr: OpenReview
-  title: "Active Gaze Behavior Boosts Self-Supervised Object Learning"
-  author: "Zhengyang Yu, Arthur Aubret, Marcel C. Raabe, Jane Yang, Chen Yu, Jochen Triesch"
-  venue: Submitted
-  year: 2025
-  url: "https://openreview.net/forum?id=dPqfgsYn6l"
-  pdf: "Active Gaze Behavior Boosts Self-Supervised Object Learning.pdf"

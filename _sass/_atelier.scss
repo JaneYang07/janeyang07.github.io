@@ -1,0 +1,133 @@
+/******************************************************************************
+ * Editorial type and paper surface
+ ******************************************************************************/
+
+body {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  background-image:
+    radial-gradient(ellipse at 0% 0%, rgba(154, 59, 47, 0.07), transparent 46%),
+    radial-gradient(ellipse at 100% 8%, rgba(47, 74, 62, 0.06), transparent 40%);
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+.navbar-brand,
+.post-title,
+.card-title {
+  font-family: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+.navbar {
+  background-color: rgba(244, 239, 230, 0.92);
+  backdrop-filter: blur(8px);
+}
+
+html[data-theme="dark"] .navbar {
+  background-color: rgba(23, 20, 17, 0.92);
+}
+
+html[data-theme="dark"] body {
+  background-image:
+    radial-gradient(ellipse at 0% 0%, rgba(232, 165, 152, 0.08), transparent 46%),
+    radial-gradient(ellipse at 100% 8%, rgba(90, 120, 100, 0.08), transparent 40%);
+}
+
+.navbar-brand {
+  font-weight: 560;
+  letter-spacing: -0.03em;
+  font-size: 1.35rem;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.06em;
+  font-size: 0.92rem;
+}
+
+.site-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.name-en {
+  font-weight: 560;
+  font-size: clamp(2.4rem, 6vw, 3.5rem);
+  letter-spacing: -0.035em;
+  line-height: 0.95;
+}
+
+.name-zh {
+  font-family: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: 0.22em;
+  color: var(--global-theme-color);
+  line-height: 1.2;
+}
+
+.profile {
+  img,
+  .img-fluid,
+  img.z-depth-1 {
+    border-radius: 2px !important;
+    box-shadow: 12px 12px 0 var(--global-theme-color) !important;
+  }
+
+  .more-info {
+    font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+}
+
+article h2:not(.bibliography) {
+  font-weight: 500;
+  font-size: 1.45rem;
+  letter-spacing: -0.02em;
+  margin-top: 2.4rem;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 2.4rem;
+    height: 2px;
+    margin-top: 0.4rem;
+    background: var(--global-theme-color);
+  }
+}
+
+.gallery-caption {
+  margin: 1.6rem 0 0.6rem;
+  font-family: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--global-text-color-light);
+}
+
+.publications ol.bibliography .title {
+  font-family: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  font-weight: 560;
+  letter-spacing: -0.015em;
+}
+
+@media (max-width: 575px) {
+  .profile {
+    img,
+    .img-fluid,
+    img.z-depth-1 {
+      box-shadow: 8px 8px 0 var(--global-theme-color) !important;
+    }
+  }
+}

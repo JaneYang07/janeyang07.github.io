@@ -3,9 +3,10 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
+    <h1 class="post-title site-name">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% if page.subtitle and page.subtitle != '' %} ({{ page.subtitle }}){% endif %}</span>
+        <span class="name-en">{{ site.first_name }}{% if site.middle_name and site.middle_name != '' %} {{ site.middle_name }}{% endif %} {{ site.last_name }}</span>
+        {% if page.subtitle and page.subtitle != '' %}<span class="name-zh">{{ page.subtitle }}</span>{% endif %}
       {% else %}
         {{ site.title }}{% if page.subtitle and page.subtitle != '' %} ({{ page.subtitle }}){% endif %}
       {% endif %}
