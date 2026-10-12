@@ -28,7 +28,7 @@ nav_order: 2
           <div class="title">{{ pub.title }}</div>
           <div class="author">{{ pub.author | replace: self_name, self_html }}</div>
           <div class="venue">{{ pub.venue }}</div>
-          {% if pub.url or pub.pdf or pub.poster %}
+          {% if pub.url or pub.pdf or pub.poster or pub.explorer %}
             <div class="links">
               {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}
               {% if pub.url and pub.pdf %} · {% endif %}
@@ -36,6 +36,10 @@ nav_order: 2
               {% if pub.poster %}
                 {% if pub.url or pub.pdf %} · {% endif %}
                 <a href="{{ '/assets/pdf/' | append: pub.poster | relative_url }}" target="_blank" rel="noopener">poster</a>
+              {% endif %}
+              {% if pub.explorer %}
+                {% if pub.url or pub.pdf or pub.poster %} · {% endif %}
+                <a href="{{ pub.explorer }}" target="_blank" rel="noopener">explorer</a>
               {% endif %}
             </div>
           {% endif %}
