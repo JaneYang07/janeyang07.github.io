@@ -41,17 +41,6 @@ ninja.data = [{
             window.location.href = "/blog/2026/i-dont-know-what-im-doing/";
           
         },
-      },{id: "post-trust-the-roots",
-        
-          title: "Trust the Roots",
-        
-        description: "Tending a struggling garden and thinking about resilience across generations.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/trust-the-roots/";
-          
-        },
       },{
         id: 'social-email',
         title: 'email',
