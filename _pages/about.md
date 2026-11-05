@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href="/cv/">CV</a> · <a href="/assets/pdf/Jane_resume_oct7.pdf">Resume</a></p>
+    <p><a href="/cv/">CV</a> · <a href="/assets/pdf/Jane_resume_nov5.pdf">Resume</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

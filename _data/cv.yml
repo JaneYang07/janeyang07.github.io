@@ -21,7 +21,7 @@
       year: 2024--present
       maindescription: "How the visual input children actually receive shapes the object representations they build, and how that input compares to what vision models are trained on."
       description:
-        - "What objects children see, and how that differs from curated datasets. Object frequency and representational geometry across 868+ hours of egocentric video (BabyView, 31 families) compared against THINGS. Methods: YOLOE detection with CLIP-based filtering, CLIP and DINOv3 embeddings, representational similarity analysis. Output: first-author manuscript under review; public reproducibility capsule."
+        - "What objects children see, and how that differs from curated datasets. Object frequency and representational geometry across 1,482 hours of egocentric video (BabyView, 35 families) compared against adult egocentric experience (VEDB) and THINGS. Methods: YOLOE detection with CLIP-based filtering, now moving to a locally run Qwen vision-language model validated against a human-annotated gold set; CLIP and DINOv3 embeddings, representational similarity analysis. Output: first-author manuscript under review; public reproducibility capsule."
         - "Why some categories are visually harder than others. Global and local dispersion measures over 85 categories separate viewpoint-driven from instance-driven variability; rankings partially replicate across backbones and are only weakly coupled to frequency. Output: CCN 2026 spotlight; reproducible analysis package and layer-wise embedding explorer."
         - "Whether children and models converge on 3D shape. MOCHI Kids, a developmental (ages 4–6) adaptation of the MOCHI shape-oddity benchmark, built and deployed for direct human-model comparison on multiview object consistency. Methods: TypeScript and jsPsych client, Express and MongoDB backend, end-to-end tests in CI. Status: piloting."
         - "How language and vision align in everyday input. Alignment between child-directed speech and co-occurring visual scenes in naturalistic video, using multimodal models as the measure. Output: co-first-author preprint."
@@ -30,7 +30,7 @@
       institution: "UT Austin Developing Intelligence Lab (Principal Investigator: Chen Yu)"
       year: 2022--2024
       description:
-        - "Multimodal measurement of infant-caregiver interaction. Ran home-based sessions with 12–36 month infants using head-mounted eye trackers, third-person cameras, IMUs, and lapel microphones. Methods: Python preprocessing pipelines across devices; MATLAB codebase to analyze and visualize multi-stream data; YOLOv8 fine-tuning for infant and parent views; MediaPipe and OpenPose for hand and face detection; WhisperX for transcription and diarization; skeletal tracking for dyadic play; 3D environments in Unity, Blender, and Matterport."
+        - "Multimodal measurement of infant-caregiver interaction. Ran home-based sessions with 12–36 month infants using head-mounted eye trackers, third-person cameras, IMUs, and lapel microphones. Methods: Python preprocessing pipelines across devices; built a MATLAB codebase to analyze and visualize multi-stream data; YOLOv8 fine-tuning for infant and parent views; MediaPipe and OpenPose for hand and face detection; WhisperX for transcription and diarization; skeletal tracking for dyadic play; 3D environments in Unity, Blender, and Matterport."
     - title: Research Assistant
       institution: "UC San Diego Cognitive Tools Lab (Principal Investigator: Judith Fan)"
       year: 2021--2022
@@ -45,6 +45,9 @@
 - title: Selected Presentations
   type: time_table
   contents:
+    - title: "Invited talk, Early Career Speaker Series"
+      institution: "Cognitive & Brain Sciences, University of Nevada, Reno"
+      year: "2026"
     - title: "Variability in young children's everyday visual experiences of object categories"
       year: "2026"
       description:
@@ -89,6 +92,9 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - title: PSYC 201A Statistical Computing and Inference from Data I
+      institution: UC San Diego, Department of Psychology
+      year: "2026"
     - title: PSYC 201B Quantitative Methods in Psychology II
       institution: UC San Diego, Department of Psychology
       year: "2026"
