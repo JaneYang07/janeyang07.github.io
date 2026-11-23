@@ -5,7 +5,7 @@ title: cv
 nav: false
 nav_order: 2
 cv_pdf: Jane_academic_cv_nov5.pdf
-resume_pdf: Jane_resume_nov18.pdf
+resume_pdf: Jane_resume_nov22.pdf
 description: Curriculum Vitae
 toc:
   sidebar: left
